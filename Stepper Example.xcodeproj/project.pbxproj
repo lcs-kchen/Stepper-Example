@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84E8A33F2D5F091000178CAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A33C2D5F091000178CAC /* ContentView.swift */; };
+		84E8A3402D5F091000178CAC /* Stepper_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A33D2D5F091000178CAC /* Stepper_ExampleApp.swift */; };
+		84E8A3412D5F091000178CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8A3392D5F091000178CAC /* Preview Assets.xcassets */; };
+		84E8A3422D5F091000178CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8A33B2D5F091000178CAC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		84E8A3282D5F090300178CAC /* Stepper Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stepper Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8A3392D5F091000178CAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E8A33B2D5F091000178CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E8A33C2D5F091000178CAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84E8A33D2D5F091000178CAC /* Stepper_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_ExampleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		84E8A32A2D5F090300178CAC /* Stepper Example */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Stepper Example";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84E8A3252D5F090300178CAC /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		84E8A31F2D5F090300178CAC = {
 			isa = PBXGroup;
 			children = (
-				84E8A32A2D5F090300178CAC /* Stepper Example */,
+				84E8A33E2D5F091000178CAC /* Stepper Example */,
 				84E8A3292D5F090300178CAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				84E8A3282D5F090300178CAC /* Stepper Example.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84E8A33A2D5F091000178CAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84E8A3392D5F091000178CAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E8A33E2D5F091000178CAC /* Stepper Example */ = {
+			isa = PBXGroup;
+			children = (
+				84E8A33A2D5F091000178CAC /* Preview Content */,
+				84E8A33B2D5F091000178CAC /* Assets.xcassets */,
+				84E8A33C2D5F091000178CAC /* ContentView.swift */,
+				84E8A33D2D5F091000178CAC /* Stepper_ExampleApp.swift */,
+			);
+			path = "Stepper Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				84E8A32A2D5F090300178CAC /* Stepper Example */,
 			);
 			name = "Stepper Example";
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E8A3412D5F091000178CAC /* Preview Assets.xcassets in Resources */,
+				84E8A3422D5F091000178CAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E8A33F2D5F091000178CAC /* ContentView.swift in Sources */,
+				84E8A3402D5F091000178CAC /* Stepper_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
